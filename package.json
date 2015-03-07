@@ -1,0 +1,17 @@
+{
+  "name": "node-azgnos",
+  "version": "1.0.0",
+  "description": "node azgnos player",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "azgnos"
+  ],
+  "author": "myf",
+  "license": "MIT",
+  "dependencies": {
+    "songza": "^1.1.3"
+  }
+}
