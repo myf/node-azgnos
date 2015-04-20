@@ -12,6 +12,8 @@
   "author": "myf",
   "license": "MIT",
   "dependencies": {
-    "songza": "^1.1.3"
+    "prompt": "^0.2.14",
+    "songza": "^1.1.3",
+    "terminal-menu": "^2.1.1"
   }
 }

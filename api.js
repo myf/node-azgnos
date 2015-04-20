@@ -10,9 +10,13 @@ var songza = new Songza(settings);
 //    //cp.spawn("mplayer", ["-really-quiet", res.listen_url]);
 //});
 
-var query = "blues";
-var station = songza.search.station(query);
-station.then(function(res){
-    console.log(res.map(function(item) {return item.name}));
-    process.exit(0);
-});
+var search_station = function(query, next) {
+    var station = songza.search.station(query);
+    station.then(function(res){
+        next(res);
+    });
+}
+
+module.exports = {
+                    'search_station' : search_station
+                 }
