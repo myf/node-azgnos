@@ -2,7 +2,7 @@
   "name": "node-azgnos",
   "version": "1.0.0",
   "description": "node azgnos player",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "npm test"
   },
@@ -12,6 +12,7 @@
   "author": "myf",
   "license": "MIT",
   "dependencies": {
+    "lame": "^1.2.3",
     "prompt": "^0.2.14",
     "songza": "^1.1.3",
     "terminal-menu": "^2.1.1"
